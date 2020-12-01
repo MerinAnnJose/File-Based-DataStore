@@ -1,3 +1,12 @@
+'''
+Freshworks-Backend Assignment
+~A file-based key value data store that supports basic CRUD(Create, Read, Update, Delete) operations. 
+
+Python version: 3.7.6
+@author: Merin Ann Jose
+@date: 01.12.2020
+'''
+
 def create():
 	key=input("\nEnter key id: ")			
 	if len(key)>32:			#checking key length 
